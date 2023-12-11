@@ -27,9 +27,26 @@ function styleHeader() {
     containerDiv.classList.add("header-buttons-container");
 }
 
+// Create footer
+const footerDiv = document.getElementById("footer-container");
+
+function appendToFooter() {
+    const footerPara = document.createElement("p");
+    footerPara.innerText = "myinan 2023";
+    footerDiv.appendChild(footerPara);
+}
+
+function styleFooter() {
+    footerDiv.classList.add("footer-container");
+}
+
 export function addHeaderFooterContent() {
     document.addEventListener("DOMContentLoaded",() => {
         appendButtons();
         styleHeader();
+
+        appendToFooter();
+        styleFooter();
     });
 };
+
