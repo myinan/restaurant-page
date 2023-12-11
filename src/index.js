@@ -1,0 +1,1 @@
+console.log("I test webpack 2.");
