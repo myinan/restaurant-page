@@ -1,5 +1,5 @@
 import './style.css';
-import log from './module-homepage/moduleHomePage.js';
+import * as homepageModule from './module-homepage/moduleHomePage.js';
 
-log();
+homepageModule.setHomepageBg();
 

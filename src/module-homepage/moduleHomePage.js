@@ -1,5 +1,9 @@
-const log = function() {
-    console.log("I TEST WEBPACK");
+function setBackground() {
+    const body = document.getElementById("content");
+    body.classList.add("home-background");
 }
 
-export default log;
+
+export function setHomepageBg() {
+    document.addEventListener("DOMContentLoaded", setBackground);
+};
