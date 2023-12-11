@@ -1,1 +1,5 @@
-console.log("I test webpack 2.");
+import './style.css';
+import log from './module-homepage/moduleHomePage.js';
+
+log();
+
