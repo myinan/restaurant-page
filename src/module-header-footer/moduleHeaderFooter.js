@@ -1,3 +1,5 @@
+import githubIcon from "./github-mark.svg";
+
 //Create header
 const headerDiv = document.getElementById("header-container");
 const containerDiv = document.createElement("div");
@@ -31,8 +33,14 @@ function styleHeader() {
 const footerDiv = document.getElementById("footer-container");
 
 function appendToFooter() {
-    const footerPara = document.createElement("p");
-    footerPara.innerText = "myinan 2023";
+    const myIcon = new Image();
+    myIcon.src = githubIcon;
+
+    const footerPara = document.createElement("div");
+    footerPara.innerText = "@myinan 2023";
+    footerPara.classList.add("footer-inner-div");
+    footerPara.appendChild(myIcon);
+
     footerDiv.appendChild(footerPara);
 }
 
