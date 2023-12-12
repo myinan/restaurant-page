@@ -12,7 +12,7 @@ function addHeader() {
 
 function addMiddlePara() {
     const welcomePara = document.createElement("div");
-    welcomePara.innerText = "You can find a vast list of choices avaliable to you in our beatiful Restaurant!";
+    welcomePara.innerText = "You can find a vast list of choices avaliable to you in our beautiful Restaurant!";
     contentDiv.appendChild(welcomePara);
 }
 
@@ -45,15 +45,13 @@ function addBottomStrip() {
 }
 
 function addStyling() {
-    contentDiv.classList.add("content-bg-homepage");
+    contentDiv.classList.add("main-bg-homepage");
     contentDiv.classList.add("main-container-homepage");
 }
 
 export function addMainContentHomepage() {
-    document.addEventListener("DOMContentLoaded",() => {
         addHeader();
         addMiddlePara();
         addBottomStrip();
         addStyling();
-    });
 };

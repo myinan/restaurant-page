@@ -49,12 +49,10 @@ function styleFooter() {
 }
 
 export function addHeaderFooterContent() {
-    document.addEventListener("DOMContentLoaded",() => {
         appendButtons();
         styleHeader();
 
         appendToFooter();
         styleFooter();
-    });
 };
 

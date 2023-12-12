@@ -46,7 +46,7 @@ body {
     font-weight: bold;
 }
 
-.content-bg-homepage {
+.main-bg-homepage {
     background-image: url(./module-homepage/brick-wall-rest.jpg);
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
@@ -103,6 +103,16 @@ body {
 }
 .main-container-homepage div:nth-child(3) p {
     width: 120px;
+}
+
+.main-bg-menupage {
+    background-image: url(./module-menupage/food-menu.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+.main-container-menupage {
+    display: grid;
 }
 
 .footer-container {
