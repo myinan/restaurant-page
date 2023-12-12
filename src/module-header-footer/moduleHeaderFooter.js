@@ -9,7 +9,7 @@ function appendButtons() {
     name.innerText = "RestaDelux";
     headerDiv.appendChild(name);
 
-    // Array to store references to the buttons
+    // Declare array to store button references
     const buttons = [];
 
     for (let i = 0; i < 3; i++) {
