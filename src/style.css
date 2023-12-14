@@ -176,23 +176,33 @@ body {
     align-items: center;
 }
 
-.overlay-container p:nth-child(1) {
+.overlay-container > p:nth-child(1) {
     color: #d6d3d1;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
-.overlay-container p:nth-child(2) {
+.overlay-container > p:nth-child(2) {
     color: #c2410c;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .info-container {
     display: flex;
+    gap: 60px;
+    color: white;
+    font-size: 1.3rem;
 }
 
 .info-container > div {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.info-container img {
+    width: 40px;
+    height: 40px;
 }
 
 .footer-container {
