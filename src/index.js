@@ -2,6 +2,7 @@ import './style.css';
 import * as headerFooterModule from './module-header-footer/moduleHeaderFooter.js';
 import * as homepageModule from './module-homepage/moduleHomePage.js';
 import * as menupageModule from './module-menupage/moduleMenuPage.js';
+import * as contactpageModule from './module-contactpage/moduleContactPage.js';
 
 // Render homepage with initial access to app
 document.addEventListener("DOMContentLoaded", () => {
@@ -35,5 +36,11 @@ document.addEventListener("click", (event) => {
 });
 
 //"Contact" button clicked
+document.addEventListener("click", (event) => {
+    if (event.target.innerText == "Contact") {
+        clearContent();
+        contactpageModule.addMainContentContactpage();
+    }
+});
 
 // "Github" icon clicked

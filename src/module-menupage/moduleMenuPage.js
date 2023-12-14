@@ -1,4 +1,4 @@
-import menuImage1 from "./assets/roasted-chicken.jpeg";
+import menuImage1 from "./roasted-chicken.jpeg";
 
 const contentDiv = document.getElementById("main-container");
 

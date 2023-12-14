@@ -1,2 +1,2 @@
 # restaurant-page
-Restaurant page. Created to practice npm, webpack, modular design and creating DOM elements with vanilla Javascript. Every element on this app is generated on DOM.
+Single-page Restaurant website. Created to practice npm, webpack, modular design and creating DOM elements with vanilla Javascript. Every rendered element is generated on DOM.
