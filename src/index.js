@@ -13,7 +13,11 @@ document.addEventListener("DOMContentLoaded", () => {
 // Function to clear content
 function clearContent() {
     const mainContent = document.getElementById('main-container');
-    mainContent.innerHTML = "";
+    
+    while (mainContent.firstChild) {
+        mainContent.removeChild(mainContent.firstChild);
+    }
+
     while (mainContent.classList.length > 0) {
         mainContent.classList.remove(mainContent.classList[0]);
     }
