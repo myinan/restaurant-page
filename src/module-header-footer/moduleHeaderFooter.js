@@ -35,6 +35,7 @@ const footerDiv = document.getElementById("footer-container");
 function appendToFooter() {
     const myIcon = new Image();
     myIcon.src = githubIcon;
+    myIcon.setAttribute("id", "github-icon");
 
     const footerPara = document.createElement("div");
     footerPara.innerText = "@myinan 2023";

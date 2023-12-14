@@ -48,3 +48,8 @@ document.addEventListener("click", (event) => {
 });
 
 // "Github" icon clicked
+document.addEventListener("click", (event) => {
+    if (event.target.id == "github-icon") {
+        window.location.href = "https://github.com/myinan";
+    }
+});
